@@ -5,6 +5,7 @@ import contextlib
 import datetime
 import discord
 import itertools
+from pytz import timezone
 
 from redbot.core import commands, Config, checks
 from redbot.core.bot import Red
